@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE8825991F4EEB6E0004749C /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8825981F4EEB6E0004749C /* Reusable.swift */; };
 		DEE0EF261F4DAD050057E9A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0EF251F4DAD050057E9A3 /* AppDelegate.swift */; };
 		DEE0EF281F4DAD050057E9A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0EF271F4DAD050057E9A3 /* ViewController.swift */; };
 		DEE0EF2B1F4DAD050057E9A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE0EF291F4DAD050057E9A3 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE8825981F4EEB6E0004749C /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		DEE0EF221F4DAD050057E9A3 /* LoginUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE0EF251F4DAD050057E9A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEE0EF271F4DAD050057E9A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				DEE0EF251F4DAD050057E9A3 /* AppDelegate.swift */,
 				DEE0EF271F4DAD050057E9A3 /* ViewController.swift */,
+				DE8825981F4EEB6E0004749C /* Reusable.swift */,
 				DEE0EF291F4DAD050057E9A3 /* Main.storyboard */,
 				DEE0EF2C1F4DAD050057E9A3 /* Assets.xcassets */,
 				DEE0EF2E1F4DAD050057E9A3 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8825991F4EEB6E0004749C /* Reusable.swift in Sources */,
 				DEE0EF281F4DAD050057E9A3 /* ViewController.swift in Sources */,
 				DEE0EF261F4DAD050057E9A3 /* AppDelegate.swift in Sources */,
 			);
@@ -528,6 +532,7 @@
 				DEE0EF4C1F4DAD060057E9A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEE0EF4D1F4DAD060057E9A3 /* Build configuration list for PBXNativeTarget "LoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				DEE0EF4F1F4DAD060057E9A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEE0EF501F4DAD060057E9A3 /* Build configuration list for PBXNativeTarget "LoginUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				DEE0EF521F4DAD060057E9A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
